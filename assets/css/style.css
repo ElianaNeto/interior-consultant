@@ -208,7 +208,4 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    background-color: rgb(255, 0, 0);
-  }
 }
