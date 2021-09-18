@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-family: "Lora", serif;
+    background-color: aqua;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 0, 0);
+  }
+}
