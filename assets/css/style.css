@@ -10,7 +10,7 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    background: #181719;
+    background-color: #181719;
   }
   .logo {
     border: 1px solid rgb(255, 255, 255);
@@ -67,10 +67,12 @@ body {
 
   #menu {
     width: 0;
-    background-color: rgb(0, 0, 0);
+    height: 100%;
+    background-color: #181719;
     display: none;
     position: absolute;
     text-align: center;
+    z-index: 1;
   }
   #menu a {
     text-decoration: none;
@@ -160,7 +162,6 @@ body {
     border-radius: 50%;
     margin-left: 18px;
   }
-  
 
   .contact {
     display: flex;
