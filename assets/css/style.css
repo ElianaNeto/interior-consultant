@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
+/* font-family: "Montserrat", sans-serif;
+    font-family: 'Lora', serif;*/
 body {
   margin: 0;
   padding: 0;
@@ -8,14 +10,151 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
+    background-color: rgb(0, 0, 0);
+  }
+  .logo {
+    border: 1px solid rgb(255, 255, 255);
+    width: 103px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 0px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    float: left;
+  }
+  .body-content {
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  #menu {
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    position: absolute;
+    text-align: center;
+  }
+  #menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+  }
+
+  #menu ul {
+    list-style-type: none;
+    margin-top: 25%;
+    padding-left: 0px;
+  }
+  #menu ul li {
+    margin-bottom: 30px;
+  }
+
+  .menu-link:hover {
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+  }
+
+  a.active {
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+  }
+
+  .title {
     font-family: "Lora", serif;
-    background-color: aqua;
+    font-weight: 500;
+    line-height: 46.08px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-left: 12px;
+    margin-top: 33.4px;
+  }
+
+  .body-content a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 17px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-left: 12px;
+  }
+
+  .paragraph {
+    width: 250px;
+    height: 85px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 100;
+  }
+
+  .body-content img {
+    width: 94%;
+    margin-left: 12px;
+    margin-top: 25px;
+  }
+  .img-content {
+    position: absolute;
+  }
+
+  .info {
+    position: absolute;
+    background-color: blue;
+    height: 138px;
+    width: 300px;
+    margin-top: 240px;
+    margin-left: 50px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body {
-    font-family: "Montserrat", sans-serif;
     background-color: rgb(255, 0, 0);
   }
 }
