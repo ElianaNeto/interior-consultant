@@ -5,13 +5,15 @@ $(document).ready(function(){
     });
 });
 
-function myFunction(x) {
+function closeAndOpenMenu(x) {
     x.classList.toggle("change");
     if (document.getElementById("menu").style.display === "block") {
         document.getElementById("menu").style.display = "none";
+        document.getElementById("logo").style.visibility = "visible"
         
     } else {
         document.getElementById("menu").style.display = "block";
+        document.getElementById("logo").style.visibility = "hidden";
     }
   
     if (document.getElementById("menu").style.width === "100%") {

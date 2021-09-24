@@ -37,7 +37,7 @@ body {
   .container {
     display: inline-block;
     cursor: pointer;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 10px;
   }
 
@@ -152,7 +152,7 @@ body {
     height: 138px;
     width: 300px;
     margin-top: 240px;
-    margin-left: 50px;
+    margin-left: 12.5%;
     padding: 0;
   }
 
@@ -202,8 +202,27 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-
     color: #ffffff;
+  }
+
+  .me {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #a9a9a9;
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 12.5%;
+    top: 635px;
+  }
+
+  .me a {
+    color: #a9a9a9;
+    text-decoration: underline;
   }
 }
 
