@@ -34,6 +34,7 @@ body {
   }
 
   .container {
+    display: inline-block;
     cursor: pointer;
     float: right;
     margin-top: 6px;
