@@ -6,10 +6,10 @@
 body {
   margin: 0;
   padding: 0;
-}
-body {
   background-color: #181719;
+  width: 100%;
 }
+
 @media screen and (max-width: 767px) {
   .logo {
     border: 1px solid rgb(255, 255, 255);
@@ -34,10 +34,10 @@ body {
   }
 
   .container {
-    display: inline-block;
     cursor: pointer;
-    margin-left: 60%;
-    margin-top: 10px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
   }
 
   .bar1,
@@ -149,10 +149,12 @@ body {
     background: #181719;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 138px;
-    width: 300px;
-    margin-top: 240px;
+    width: 80%;
+    margin-top: 69%;
     margin-left: 12.5%;
     padding: 0;
+    right: 0;
+    left: 0;
   }
 
   .contact img {
@@ -203,7 +205,6 @@ body {
     line-height: 23px;
     color: #ffffff;
   }
-
   .me {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -213,10 +214,10 @@ body {
     text-align: center;
     color: #a9a9a9;
     position: absolute;
-    width: 287px;
+    width: 76.5%;
     height: 17px;
-    left: 12.5%;
-    top: 690px;
+    left: 11.7%;
+    margin-top: 130%;
   }
 
   .me a {
@@ -246,7 +247,7 @@ body {
   }
 
   .menu-list {
-    margin-left: 660px;
+    margin-left: 57.43%;
     display: flex !important;
   }
 
@@ -260,7 +261,7 @@ body {
     text-align: center;
     font-size: 15px;
     color: hsl(0, 0%, 100%);
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .menu-list a {
@@ -340,8 +341,8 @@ body {
     position: absolute;
     width: 410px;
     height: 189px;
-    left: 820px;
-    top: 650px;
+    left: 61%;
+    top: 660px;
     background: #181719;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -392,7 +393,6 @@ body {
     line-height: 31px;
     color: #ffffff;
   }
-
   .me {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
