@@ -11,6 +11,12 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .menu-btn{
+    margin-left: 90%;
+  }
+  .header{
+    justify-content: space-between;
+  }
   .logo {
     border: 1px solid rgb(255, 255, 255);
     width: 103px;
@@ -33,12 +39,10 @@ body {
     width: 100%;
   }
 
-  .container {
+  .top-bar-container {
     display: inline-block;
+    margin: 6px 10px 0 ;
     cursor: pointer;
-    float: right;
-    margin-top: 6px;
-    margin-right: 10px;
   }
 
   .bar1,
